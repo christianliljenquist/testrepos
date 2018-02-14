@@ -1,6 +1,9 @@
 body{
   background-color: lightyellow;
 }
+.column{
+  float: left;color: lightyellow;
+}
 
 h1{
   color: black;
