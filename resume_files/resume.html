@@ -1,78 +1,44 @@
 <!DOCTYPE html>
-<!-- saved from url=(0064)file:///Users/christianliljenquist/Desktop/testrepos/resume.html -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>Christian Christian Liljenquist Resume</title>
-  
-  <meta name="author" content="Christian L.">
-  <meta name="keywords" content="basic website">
-  <link href="./resume_files/style.css" type="text/css" rel="stylesheet">
-  <link href="./resume_files/css" rel="stylesheet">
-</head>
+<html>
+<head>
+<style>
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
 
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+</style>
+</head>
 <body>
 
-<!-- Sorry for messing up so badly -->
+<h1>College Life In Miami </h1>
 
-  <div class="column left">
-  <header>
-    <h1>Christian Liljenquist Resume</h1>
-  </header>
-  <img src="./resume_files/grammaandginga.jpg" alt="This is a photo of my great grandma, Aunt and I">
+<p>This grid layout contains six columns and three rows:</p>
+
+<div class="grid-container">
+  <div class="item1">Header</div>
+  <div class="item2">Menu</div>
+  <div class="item3">Main</div>
+  <div class="item4">Right</div>
+  <div class="item5">Footer</div>
 </div>
 
-
-  <main>
-    <div class="column right">
-      <h2> Work Experience</h2>
-<p> My dad owns a jewerly business in the DC, Maryland, Virginia area that I have worked at over the last few summers with my older brothers. I have also worked in a school picture business where we take pictures of graduating classes and seniors. This is a link to our website </p>
-
-    <section>
-      <table>
-        <tbody><tr>
-          <th> Company</th>
-        </tr>
-        <tr>
-          <td> Liljenquist and Beckstead </td>
-          <td> || Victor O'Neil Studios </td>
-        </tr>
-      </tbody></table>
-
-      <h3>Hobbies</h3>
-<ol>
-        <li>Soccer</li>
-        <li>Video Games</li>
-        <li>Surfing</li>
-      </ol>
-
-
-<div class=" column rightright">
-  <h2>Skills</h2>
-  <ul>
-    <li>Basketball</li>
-    <li>Soccer</li>
-    <li>Math</li>
-    <li>Weight Lifting</li>
-</ul>
-
-<b> This is my new resume page </b>
-<i> I wont screw up again </i>
-
-
-<footer>
-  <h2>Contact</h2>
-  <p>cbl52@miami.edu</p>
-  <p><a href="https://www.instagram.com/christian_liljenquist/" target="_blank">Christian Liljenquist Instagram</a></p>
-<p><a href="http://www.liljenquistbeckstead.com/" target="_blank"> Jewerly Website</a></p>
-</footer>
-</div>
-  </section></div></main>
-
-  <br>
-
-
-
-
-
-
-
-</body></html>
+</body>
+</html>
