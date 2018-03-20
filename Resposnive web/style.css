@@ -3,10 +3,10 @@ background-color: powderblue;
 margin: 0;
 }
 
-h1{
+#college{
   border: double;
   border-width: thick;
-  float: center;
+  text-align: center;
     padding: 10px;
     box-shadow: 5px 10px 18px red;
 }
@@ -52,18 +52,34 @@ h3{
 }
 
 #body2{
-  background-color: rgb(255, 247, 71);
+  background-color: lightblue;
 }
 
 #school{
-  border: double;
-  border-color: black;
-  box-shadow: 5px 10px 18px red;
+  column-count: 3;
+  column-rule-style: solid;
+  column-rule-color: black;
+  text-align: center;
 }
+
+#alumni{
+  column-count: 3;
+  column-rule-style: solid;
+  column-rule-color: black;
+  text-align: center;
+}
+
+
 
 div.gallery {
     border: 1px solid #ccc;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
 
+div.gallery:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); 
 }
 
 div.gallery:hover {
@@ -78,7 +94,7 @@ div.gallery img {
 div.desc {
     padding: 15px;
     text-align: center;
-    text-transform: uppercase;
+    font-variant: small-caps;
 }
 
 * {
@@ -111,5 +127,28 @@ div.desc {
 }
 
 #greek{
-  background:lime;
+  background:yellow;
+  border: solid;
+  border-width: thick;
+  text-align: center;
+}
+
+#social{
+  border: solid;
+  border-width: thick;
+  text-align: center;
+  text-decoration: underline;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: lightblue;
+  padding: 10px;
+}
+.grid-container > div {
+  background-color: yellow;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
 }
