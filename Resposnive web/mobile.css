@@ -21,3 +21,48 @@ main{
     padding: 15px;
     box-shadow: 5px 10px 18px black;
 }
+
+#clubs{
+  border: double;
+  border-width: medium;
+  border-color: green;
+  text-align: left;
+  padding: 10px;
+  box-shadow: 5px 10px 18px green;
+}
+
+#facts{
+  border: double;
+  border-width: medium;
+  border-color: green;
+  text-align: left;
+  padding: 10px;
+  box-shadow: 5px 10px 18px green;
+}
+
+#hh2{
+  border: double;
+  border-width: medium;
+  border-color: green;
+  text-align: left;
+  padding: 10px;
+  box-shadow: 5px 10px 18px green;
+}
+
+#hhh3{
+  border: double;
+  border-width: medium;
+  border-color: green;
+  text-align: left;
+  padding: 10px;
+  box-shadow: 5px 10px 18px green;
+}
+
+#greek{
+  border: double;
+  border-width: thin;
+  border-color: red;
+  text-align: left;
+  padding: 15px;
+  box-shadow: 10px 15px 20px red;
+}
