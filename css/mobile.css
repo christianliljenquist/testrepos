@@ -1,0 +1,22 @@
+@import "css/style.css";
+
+body{
+  background-color: #CD853F;
+}
+
+header{
+  width: 700px
+}
+
+
+main{
+  width: 700px;
+}
+
+#college{
+  border: solid;
+  border-width: thin;
+  text-align: center;
+    padding: 15px;
+    box-shadow: 5px 10px 18px black;
+}
