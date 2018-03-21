@@ -1,4 +1,4 @@
-@import "css/style.css";
+@import "style.css";
 
 body{
   background-color: #CD853F;
@@ -11,4 +11,13 @@ header{
 
 main{
   width: 700px;
+}
+
+
+#college{
+  border: solid;
+  border-width: thin;
+  text-align: center;
+    padding: 15px;
+    box-shadow: 5px 10px 18px black;
 }
