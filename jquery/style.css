@@ -1,3 +1,42 @@
-#tie{
-  color: red;
+
+body{
+  background-color: silver;
+}
+
+img {
+  width: 200px;
+  height: auto;
+}
+
+h1{
+  color: blue;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+h2, p {
+  font-family: sans-serif;
+  color: green;
+}
+
+
+button{
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+.screen{
+  background-color: red;
+  /* display: none; */
+}
+
+.video{
+  display: none;
 }
