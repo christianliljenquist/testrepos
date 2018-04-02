@@ -7,7 +7,7 @@ $(document).ready(function(){
         $(".imageone").show();
     });
 
-  
+
 
 
 
@@ -15,7 +15,7 @@ $(document).ready(function(){
         $(".screen").fadeOut(1000);
   });
 
-  $(".imghover").hover(function(){
+  $(".starthover").hover(function(){
       $(".screen").fadeIn(1000);
 });
 
@@ -32,7 +32,14 @@ $("#replacetext").hover(function(){
 $("#replace").html("<p>Repeat the process and enjoy!</p>");
 });
 
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+    });
 
+
+
+});
 
 
 

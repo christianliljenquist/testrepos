@@ -1,6 +1,6 @@
 
 body{
-  background-color: silver;
+  background-color: black;
 }
 
 img {
@@ -16,15 +16,16 @@ h1{
 }
 
 h2, p {
-  font-family: sans-serif;
-  color: green;
+  font-family: fantasy;
+  color: white;
+  text-transform: capitalize;
 }
 
 
 button{
   background-color: blue;
   color: white;
-  padding: 10px;
+  padding: 20px;
   margin-bottom: 5px;
 }
 
@@ -39,4 +40,19 @@ h2 {
 
 .video{
   display: none;
+  color: white;
+}
+
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: black;
+    border: solid 1px red;
+    color: white;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+    color: red;
 }
