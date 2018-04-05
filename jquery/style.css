@@ -16,9 +16,11 @@ h1{
 }
 
 h2, p {
-  font-family: fantasy;
-  color: white;
+  font-family: sans-serif;
+  color: silver;
   text-transform: capitalize;
+  border: solid;
+  border-color: white;
 }
 
 
@@ -55,4 +57,10 @@ h2 {
     padding: 50px;
     display: none;
     color: red;
+}
+
+#p5{
+  border: none;
+  text-decoration: underline;
+  text-decoration-color: yellow;
 }

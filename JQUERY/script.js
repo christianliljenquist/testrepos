@@ -10,7 +10,6 @@ $(document).ready(function(){
 
 
 
-
     $(".screen").hover(function(){
         $(".screen").fadeOut(1000);
   });
@@ -29,7 +28,7 @@ $("#clickhere").click(function(){
 });
 
 $("#replacetext").hover(function(){
-$("#replace").html("<p>Repeat the process and enjoy!</p>");
+$("#replace").html("<p>Hit the GAS pedal and enjoy the ride!</p>");
 });
 
 $(document).ready(function(){
@@ -37,10 +36,20 @@ $(document).ready(function(){
         $("#panel").slideToggle("slow");
     });
 
+    $(document).ready(function(){
+        $("button").click(function(){
+            $("div").animate({left: '1500px'});
+
+        });
+    });
+
+    $(document).ready(function(){
+        $("#btn1").click(function(){
+            $("p").append(" <b>HELLO :) </b>.");
+        });
 
 
+    });
 });
-
-
 
 });
