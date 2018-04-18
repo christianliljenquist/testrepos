@@ -1,5 +1,5 @@
 body{
-background-color: powderblue;
+background-color: lightyellow;
 margin: 0;
 }
 
@@ -23,11 +23,7 @@ h3{
   box-shadow: 5px 10px 18px red;
 }
 
-#facts{
-  border: double;
-  border-width: thin;
-  box-shadow: 5px 10px 18px black;
-}
+
 
 #clubs{
   border: double
@@ -62,12 +58,7 @@ h3{
   text-align: center;
 }
 
-#alumni{
-  column-count: 3;
-  column-rule-style: solid;
-  column-rule-color: black;
-  text-align: center;
-}
+
 
 
 
@@ -127,11 +118,11 @@ div.desc {
 }
 
 #greek{
-  background:aqua;
+  background:white;
   border: solid;
   border-width: thick;
   text-align: center;
-  font-family: fantasy; 
+  font-family: fantasy;
 }
 
 #social{
@@ -152,4 +143,11 @@ div.desc {
   border: 1px solid black;
   text-align: center;
   font-size: 30px;
+}
+
+#videos{
+  border: solid;
+  border-width: thick;
+  text-align: middle;
+  text-decoration: underline;
 }
