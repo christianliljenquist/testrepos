@@ -148,6 +148,59 @@ div.desc {
 #videos{
   border: solid;
   border-width: thick;
-  text-align: middle;
+  text-align: center;
   text-decoration: underline;
+}
+
+#fun{
+  border: solid;
+  border-width: thick;
+  border-color: blue;
+  text-align: center;
+  text-shadow: red;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#both{
+  border: double;
+  border-width: thick;
+  border-color: red;
+  text-align: center;
+  text-shadow: blue;
+}
+
+#list{
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+#lines{
+  text-align: left;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+#famous{
+  border: solid;
+  border-color: black;
+  border-style: groove;
 }
